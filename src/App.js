@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div>Todo App</div>
+    <div>React calendar</div>
   );
 }
 

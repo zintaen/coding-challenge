@@ -16,3 +16,13 @@ Finish the following application:
 - Click on the x button will remove todo
 - Click on the checkbox to toggle todo as completed
 - Make api requests to save todo data.
+
+## Start
+```
+git clone https://github.com/JSLancerTeam/coding-challenge
+cd coding-challenge
+yarn start
+yarn run backend
+```
+Frontend: http://localhost:3000
+Backend: http://localhost:3001/todos
