@@ -1,0 +1,41 @@
+.container {
+  max-width: 40%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todoForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+}
+.todoForm button {
+  width: 150px;
+  margin-left: 5px;
+}
+
+.todoList {
+  margin-top: 20px;
+  width: 100%;
+}
+.todoItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+}
+.delete:hover {
+  font-weight: bold;
+  transition: 0.25s;
+}
